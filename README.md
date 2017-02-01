@@ -20,15 +20,11 @@ Download the project files to your system of choice and import the database sche
 _**WARNING**: The schema will overwrite existing databases named "tournament"._
 
 Steps using [the Vagrant VM described above](https://github.com/udacity/fullstack-nanodegree-vm):  
-After running the VM open up a terminal in the project directory and access the PostgreSQL database server:
+After running the VM open up a terminal in the project directory and:
+Acces to PostgreQSL database server and load the database schema: 
 ```
-$ psql
+$ psql -f tournament.sql
 ```
-Next, load the database schema:
-```
-$ \i tournament.sql
-```
-
 To run the unit tests, quit PostgreSQL:
 ```
 $ \q
