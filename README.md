@@ -17,7 +17,7 @@ A [Udacity supplied Vagrant VM](https://github.com/udacity/fullstack-nanodegree-
 
 ## Setup
 Download the project files to your system of choice and import the database schema into PostgreSQL. 
-***WARNING**: The schema will overwrite existing databases named "tournament".*
+* **WARNING**: The schema will overwrite existing databases named "tournament".*
 
 Steps using [the Vagrant VM described above](https://github.com/udacity/fullstack-nanodegree-vm):
 After running the VM open up a terminal in the project directory and acces the PostgreSQL database server:
