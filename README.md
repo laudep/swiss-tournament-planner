@@ -66,15 +66,15 @@ Contents: Matches played by each player ordered by amount of wins.
 
 ## Tournament functions
 
-The function library contains the following functions for organising a tournament:  
-FUNCTION | INPUT | OUTPUT  
---- | --- | ---
-connect() ||_database connection_
-deleteMatches() ||None - removes all the match records from the database
-deletePlayers() ||None - removes all the player records from the database
-countPlayers() || _number of currently registered players_
-registerPlayer(name) | _name (string)_ | None - adds player to the tournament database (bleached)
-swissPairings() || _List of tuples, each of which contains pair of players for next round (id1, name1, id2, name2)_
-reportMatch(winner, loser) | _winner ID_, _loser ID_ | None - records the outcome of a single match
-playerStandings() | | _list of players and their win records, sorted by wins_
+The function library contains the following functions for organising a tournament:
+| FUNCTION | INPUT | OUTPUT | 
+| -------- | ----- | ------ |
+| connect() ||_database connection_|
+| deleteMatches() ||None - removes all the match records from the database|
+| deletePlayers() ||None - removes all the player records from the database|
+| countPlayers() || _number of currently registered players_|
+| registerPlayer(name) | _name (string)_ | None - adds player to the tournament database (bleached)|
+| swissPairings() || _List of tuples, each of which contains pair of players for next round (id1, name1, id2, name2)_|
+| reportMatch(winner, loser) | _winner ID_, _loser ID_ | None - records the outcome of a single match|
+| playerStandings() || _list of players and their win records, sorted by wins_|
 
