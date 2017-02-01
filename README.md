@@ -12,7 +12,7 @@ A [Udacity supplied Vagrant VM](https://github.com/udacity/fullstack-nanodegree-
 
 ## Project Files
 * tournament.sql: database schema
-* tournament.py: function library for database acces
+* tournament.py: function library for database access
 * tournament_test.py: client program for testing functions in tournament.py module
 
 ## Setup
@@ -20,7 +20,7 @@ Download the project files to your system of choice and import the database sche
 _**WARNING**: The schema will overwrite existing databases named "tournament"._
 
 Steps using [the Vagrant VM described above](https://github.com/udacity/fullstack-nanodegree-vm):  
-After running the VM open up a terminal in the project directory and acces the PostgreSQL database server:
+After running the VM open up a terminal in the project directory and access the PostgreSQL database server:
 ```
 $ psql
 ```
