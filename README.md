@@ -3,7 +3,7 @@
 Plan a [Swiss-sytem tournament](https://en.wikipedia.org/wiki/Swiss-system_tournament) and keep track of players and matches using [Python](https://www.python.org/) and a [PostgreSQL](https://www.postgresql.org/) database.
 
 ## About project
-This project was made as a submission for a [Udacity](http://www.udacity.com) Nanodegree program.
+This project was made as a submission for a [Udacity](http://www.udacity.com) Nanodegree program.  
 A [Udacity supplied Vagrant VM](https://github.com/udacity/fullstack-nanodegree-vm) was used (Ubuntu, PosgreSQL and PostgreSQL CLI preconfigured).
 
 ## Requirements
@@ -16,10 +16,10 @@ A [Udacity supplied Vagrant VM](https://github.com/udacity/fullstack-nanodegree-
 * tournament_test.py: client program for testing functions in tournament.py module
 
 ## Setup
-Download the project files to your system of choice and import the database schema into PostgreSQL. 
+Download the project files to your system of choice and import the database schema into PostgreSQL.  
 _**WARNING**: The schema will overwrite existing databases named "tournament"._
 
-Steps using [the Vagrant VM described above](https://github.com/udacity/fullstack-nanodegree-vm):
+Steps using [the Vagrant VM described above](https://github.com/udacity/fullstack-nanodegree-vm):  
 After running the VM open up a terminal in the project directory and acces the PostgreSQL database server:
 ```
 $ psql
@@ -69,7 +69,7 @@ Contents: Matches played by each player ordered by amount of wins.
 The function library contains the following functions for organising a tournament:
 FUNCTION | INPUT | OUTPUT 
 --- | --- | ---
-connect() ||_database connection_|Connects to the PostgreSQL database. 
+connect() ||_database connection_
 deleteMatches() ||None - removes all the match records from the database
 deletePlayers() ||None - removes all the player records from the database
 countPlayers() || _number of currently registered players_
