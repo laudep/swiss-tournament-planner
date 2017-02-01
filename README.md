@@ -62,7 +62,7 @@ Contents: player ID and name.
 Contents: match results: match ID, winner and loser ID
 
 **VIEW: STANDINGS**  
-Contents: Matches played by each player ordered by amount of wins.
+Contents: matches played by each player sorted by amount of wins.
 
 ## Tournament functions
 
