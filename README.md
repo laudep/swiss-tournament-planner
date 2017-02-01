@@ -55,13 +55,13 @@ Success!  All tests pass!
 
 ## Database contents
 
-**TABLE: PLAYERS**
+**TABLE: PLAYERS**  
 Contents: player ID and name.
 
-**TABLE: MATCHES**
+**TABLE: MATCHES**  
 Contents: match results: match ID, winner and loser ID
 
-**VIEW: STANDINGS**
+**VIEW: STANDINGS**  
 Contents: Matches played by each player ordered by amount of wins.
 
 ## Tournament functions
