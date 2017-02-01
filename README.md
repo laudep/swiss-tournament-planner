@@ -66,8 +66,8 @@ Contents: Matches played by each player ordered by amount of wins.
 
 ## Tournament functions
 
-The function library contains the following functions for organising a tournament:
-FUNCTION | INPUT | OUTPUT 
+The function library contains the following functions for organising a tournament:  
+FUNCTION | INPUT | OUTPUT  
 --- | --- | ---
 connect() ||_database connection_
 deleteMatches() ||None - removes all the match records from the database
